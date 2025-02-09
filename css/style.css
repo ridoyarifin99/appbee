@@ -233,6 +233,7 @@ a{
         width: 40%;
         float: right;
         margin-top: 200px;
+        margin-bottom: 100px;
     }
 span{
     text-transform: lowercase;
