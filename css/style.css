@@ -107,13 +107,13 @@ a{
     visibility: hidden;
     display: block;
     opacity: 0;
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(24, 24, 24);
     transition: all ease-in-out .4s ;
     -webkit-transition: all ease-in-out .4s ;
     -moz-transition: all ease-in-out .4s ;
     -ms-transition: all ease-in-out .4s ;
     -o-transition: all ease-in-out .4s ;
-    width: 150px;
+    width: 250px;
     float: none;
     top: 60px;
     border-radius: 10px;
@@ -137,10 +137,14 @@ a{
 
 
 /* 2nd dp start */
+.menu-item ul li ul li{
+    display: block;
+}
 .menu-item ul li ul li .sub-menu-1{
     visibility: hidden;
     opacity: 0;
     top: 30px;
+    width: 150px;
     left: 100%;
     transition: all ease-in-out .4s;
     -webkit-transition: all ease-in-out .4s;
@@ -182,10 +186,14 @@ a{
 /* submenu-2 dropdown css end */
 
 /* sub-sub-m   css start */
+.menu-item ul li ul li ul li .sub-sub-m li{
+    display: block;
+}
 .menu-item ul li ul li ul li .sub-sub-m{
     visibility: hidden;
     opacity: 0;
     top: 30px;
+    width: 200px;
     left: 100%;
     transition: all ease-in-out .4s;
     -webkit-transition: all ease-in-out .4s;
@@ -200,11 +208,7 @@ a{
     top: 0px;
 }
 
-/* .sub-menu-1 >li:hover >.sub-sub-m{ 
-    visibility: visible;
-    opacity: 1;
-    top: 0px;
-} */
+
 /* sub-sub-m   css end */
 
 /* banner css start */
