@@ -168,6 +168,7 @@ a{
     visibility: hidden;
     opacity: 0;
     top: 30px;
+    width: 150px;
     left: 100%;
     transition: all ease-in-out .4s;
     -webkit-transition: all ease-in-out .4s;
